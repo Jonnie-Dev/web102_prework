@@ -75,6 +75,7 @@ function showAllGames() {
   deleteChildElements(gamesContainer);
 
   addGamesToPage(GAMES_JSON);
+  search.value = "";
 }
 
 fundedBtn.addEventListener("click", filterFundedOnly);
@@ -116,3 +117,26 @@ firstGameContainer.append(topGameElement);
 const secondGameElement = document.createElement("p");
 secondGameElement.textContent = top2.name;
 secondGameContainer.append(secondGameElement);
+
+//search functionality
+
+const search = document.getElementById("game-search");
+const gamesCardObj = document.getElementsByClassName("game-card");
+
+search.addEventListener("keyup", function (event) {
+  let searchValue = event.target.value.toLowerCase();
+
+  for (let i = 0; i < gamesCardObj.length; i++) {
+    if (
+      gamesCardObj[i].firstElementChild.innerText
+        .toLowerCase()
+        .includes(searchValue)
+    ) {
+      gamesCardObj[i].style.display = "block";
+    } else {
+      gamesCardObj[i].style.display = "none";
+    }
+  }
+});
+
+// console.log(gamesCardObj[0].firstElementChild.innerText.toLowerCase());
