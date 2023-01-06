@@ -1,6 +1,4 @@
-/*****************************************************************************
- 
-*****************************************************************************/
+'use strict'
 
 import GAMES_DATA from "./games.js";
 
@@ -139,4 +137,4 @@ search.addEventListener("keyup", function (event) {
   }
 });
 
-// console.log(gamesCardObj[0].firstElementChild.innerText.toLowerCase());
+
