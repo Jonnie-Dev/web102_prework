@@ -117,7 +117,6 @@ secondGameElement.textContent = top2.name;
 secondGameContainer.append(secondGameElement);
 
 //search functionality
-
 const search = document.getElementById("game-search");
 const gamesCardObj = document.getElementsByClassName("game-card");
 
