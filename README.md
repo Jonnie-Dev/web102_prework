@@ -19,17 +19,16 @@ The following **optional** features are implemented:
 
 - [x] List anything else that you can get done to improve the app functionality!
 - [x] "Our Games" in the header link to the Our games section
-- [ ] Responsive on various screens
+- [x] Responsive on various screens
 - [x] Search bar to filter games based on their title
-- [x] Updated styling to make the page more visually appealing
-
+- [x] Updated styling to improve the page aesthetics
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [ScreenToGif](https://www.screentogif.com/)
+GIF created with [ScreenToGif](https://www.screentogif.com/) and compressed with [VEED.io](https://www.veed.io)
 
 ## Notes
 
