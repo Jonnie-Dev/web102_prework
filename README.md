@@ -26,9 +26,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://user-images.githubusercontent.com/73708569/213714581-e5efe7ca-3a76-4e15-b576-5d187af96b55.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [ScreenToGif](https://www.screentogif.com/) and compressed with [VEED.io](https://www.veed.io)
+GIF created with [Mobile simulator](https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk) and compressed with [VEED.io](https://www.veed.io)
 
 ## Notes
 
