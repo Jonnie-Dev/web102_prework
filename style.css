@@ -116,12 +116,13 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 8px;
 }
 
 .game-img {
   width: 100%;
   border-radius: 5px;
-  box-shadow: 0 0 10px #ffffff;
+  box-shadow: 0 0 10px #d0e4bf;
 }
 
 .game-card {
@@ -146,9 +147,9 @@ h2 {
 button {
   font-family: inherit;
   border: none;
-  padding: 1%;
+  padding: 1.5%;
   margin: 1%;
-  border-radius: 7px;
+  border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
   font-size: 0.8rem;
@@ -158,4 +159,56 @@ button {
 
 button:hover {
   border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 90%;
+  }
+  h2 + .stats-container {
+    display: block;
+  }
+  #top-games {
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 80%;
+  }
+  .stats-container {
+    display: block;
+  }
+  .games-section {
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+  .game-card {
+    padding: 2.25%;
+  }
+  .game-img {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  body {
+    font-size: 75%;
+  }
+  .stats-card h3 {
+    font-size: 1.25rem;
+  }
+  #num-contributions,
+  #total-raised,
+  #num-games {
+    font-size: 2rem;
+  }
+  button {
+    padding: 3.75%;
+    margin: 1.25%;
+  }
+  button#all-btn {
+    margin-bottom: 12px;
+  }
 }

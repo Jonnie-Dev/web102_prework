@@ -22,11 +22,11 @@ function addGamesToPage(games) {
     newDiv.classList.add("game-card");
 
     newDiv.innerHTML = `
-            <h3>${games[i].name}</h3>
-            <img class="game-img" src="${games[i].img}">
-            <p>${games[i].description}</p>
-            <p>Backers: ${games[i].backers}</p>
-        `;
+      <h3>${games[i].name}</h3>
+      <img class="game-img" src="${games[i].img}">
+      <p>${games[i].description}</p>
+      <p>Backers: ${games[i].backers}</p>
+    `;
     gamesContainer.append(newDiv);
   }
 }
